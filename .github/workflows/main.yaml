@@ -1,4 +1,4 @@
-name: Example Workflow
+name: Email Step Action
 
 on:
   push:
@@ -6,12 +6,11 @@ on:
       - main
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout Repository
+      - name: Checkout Code
         uses: actions/checkout@v3
-        
-      - name: Run a one-line script
-        run: echo "Hello, GitHub Actions!"
+
+      - name: 23f3000971@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
